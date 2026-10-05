@@ -1,0 +1,24 @@
+# 🚫 Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pkl
+
+# 🚫 Data
+data/*.csv
+
+# 🚫 Secrets
+.env
+
+# 🚫 OS
+.DS_Store
+Thumbs.db
+
+# 🚫 IDE
+.vscode/
+.idea/
+
+# ✅ Keep empty folder structure
+!data/.gitkeep
+!model/.gitkeep
